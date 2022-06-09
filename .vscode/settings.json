@@ -1,23 +1,10 @@
 {
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "[typescript]": {
-        "editor.formatOnSave": true, // ファイル保存時の自動フォーマット有効
-        "editor.formatOnPaste": true, // ペーストした文字の自動フォーマット有効
-        "editor.formatOnType": true, // 文字入力行の自動フォーマット有効
-        "editor.defaultFormatter": "esbenp.prettier-vscode" // デフォルトフォーマッターをPrettierに指定
-    },
-    "[react]": {
-        "editor.formatOnSave": true, 
-        "editor.formatOnPaste": true,
-        "editor.formatOnType": true, 
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingQuotes": "always",
-    "[json]": {
-        "editor.formatOnSave": true, 
-        "editor.formatOnPaste": true,
-        "editor.formatOnType": true, 
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always"
 }
